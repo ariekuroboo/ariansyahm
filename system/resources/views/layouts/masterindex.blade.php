@@ -74,6 +74,7 @@
                     <li><a href="product-details">Barang</a></li>
                     <li><a href="cart">Keranjang</a></li>
                     <li><a href="checkout">Pembayaran</a></li>
+                    <li><a href="login">Login</a></li>
                 </ul>
             </nav>
             <!-- Button Group -->
@@ -137,6 +138,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="checkout">Pembayaran</a>
+                                            </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="login">Login</a>
                                         </li>
                                     </ul>
                                 </div>

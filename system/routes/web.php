@@ -31,3 +31,6 @@ Route::get('product-details', function () {
 Route::get('checkout', function () {
     return view('pages.pembayaran');
 });
+Route::get('login', function () {
+    return view('pages.login');
+});
