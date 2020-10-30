@@ -31,3 +31,16 @@ Route::get('product-details', function () {
 Route::get('checkout', function () {
     return view('pages.pembayaran');
 });
+Route::get('login', function () {
+    return view('pages.login');
+});
+
+Route::get('adminindex', function () {
+    return view('admin.adminindex');
+});
+Route::get('login', function () {
+    return view('admin.login');
+});
+Route::get('register', function () {
+    return view('admin.registrasi');
+});
