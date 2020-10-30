@@ -34,7 +34,6 @@ Route::get('checkout', function () {
 Route::get('login', function () {
     return view('pages.login');
 });
-
 Route::get('adminindex', function () {
     return view('admin.adminindex');
 });
